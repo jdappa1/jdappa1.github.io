@@ -99,3 +99,17 @@ hr {
 ::-webkit-scrollbar-thumb:hover {
   background: #c4c4c4;
 }
+
+li {
+  display: inline;
+  margin: 4px;
+}
+
+ul {
+  font-weight: bold;
+  background-color: #000000;
+}
+
+a {
+  color: rgb(255, 255, 255);
+}
