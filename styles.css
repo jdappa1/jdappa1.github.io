@@ -138,3 +138,9 @@ a {
 .video-title {
   margin-top: 40px;
 }
+
+.paragraph-container {
+  padding: 80px;
+  max-width: 600px;
+  color: white;
+}
