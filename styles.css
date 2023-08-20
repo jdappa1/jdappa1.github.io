@@ -8,6 +8,7 @@
 html {
   font-family: "Nunito Sans", sans-serif;
   color: white;
+  background: #24272c;
 }
 
 a {
@@ -25,6 +26,7 @@ hr {
 
 .hero {
   background: #060606;
+  height: 60vh;
 }
 
 .title,
@@ -32,21 +34,22 @@ hr {
   color: white;
 }
 
-.navbar .navbar-item {
+a.navbar-item {
   color: #e4e2ff;
 }
 
-.navbar .navbar-item.is-active {
+a.navbar-item.is-active {
   color: #e4e2ff;
   font-weight: 700;
+  background-color: transparent;
 }
 
-.navbar .navbar-item:hover {
+a.navbar-item:hover {
   background: transparent;
   color: white;
 }
 
-.navbar .navbar-item a {
+a.navbar-item {
   margin-left: 1rem;
   color: #e4e2ff;
 }
